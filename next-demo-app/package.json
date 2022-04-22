@@ -1,0 +1,24 @@
+{
+  "name": "next-demo-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@theme-ui/presets": "^0.14.3",
+    "next": "12.1.5",
+    "next-connect": "^0.12.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "theme-ui": "^0.14.3"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5"
+  }
+}
