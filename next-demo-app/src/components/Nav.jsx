@@ -34,6 +34,7 @@ const Nav = () => (
         <a sx={{ color: "text", fontSize: 3, cursor: "pointer" }}>notes</a>
       </Link>
       <a href={process.env.URL}>frontend link</a>
+      <Link href="/about">About</Link>
     </nav>
   </header>
 );
