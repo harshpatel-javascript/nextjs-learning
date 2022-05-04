@@ -6,7 +6,7 @@ const handler = nc()
   .get((req, res) => {
     res.send({ message: "ok" });
   })
-  .post((re, res) => {
+  .post((req, res) => {
     res.json({ message: "posted" });
   });
 

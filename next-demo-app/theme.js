@@ -9,9 +9,9 @@ const theme = {
   containers: {
     card: {
       boxShadow: "0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)",
-      border: "1px solid",
-      borderColor: "muted",
-      borderRadius: "4px",
+      br: "muted",
+      borderRaorder: "1px solid",
+      borderColodius: "4px",
       p: 2,
     },
     page: {

@@ -1,6 +1,6 @@
+import React from "react";
 /** @jsxRuntime classic */
 // /** @jsx jsx */
-
 // that jsxruntime is for autorun as we have used create-next-app
 import { jsx } from "theme-ui";
 import Link from "next/link";
@@ -33,6 +33,7 @@ const Nav = () => (
       <Link href="/notes">
         <a sx={{ color: "text", fontSize: 3, cursor: "pointer" }}>notes</a>
       </Link>
+      <a href={process.env.URL}>frontend link</a>
     </nav>
   </header>
 );
